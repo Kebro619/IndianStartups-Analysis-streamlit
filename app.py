@@ -4,8 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import datetime as dt
 import streamlit as st
-import plotly.graph_objects as go
-
 
 # -->  File reading and making date datetime
 df = pd.read_csv('cleanedStartupFile.csv')
